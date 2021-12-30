@@ -147,6 +147,9 @@ const Container = styled.div`
         justify-content: space-between;
         gap: 10px;
         flex-wrap: wrap;
+        &_address {
+          word-break: break-word;
+        }
         .social_link {
           color: #eee;
           font-size: 30px;
